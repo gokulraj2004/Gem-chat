@@ -10,7 +10,7 @@ load_dotenv()
 #configuring streamlit page settings
 st.set_page_config(
     page_icon='⭐',
-    page_title='GemChat',
+    page_title='💎GemChat💎',
     layout='wide',
     menu_items={'Get Help': 'https://www.linkedin.com/in/gokulraj075/',
                 'Report a bug': "https://www.linkedin.com/in/gokulraj075/",
