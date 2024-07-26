@@ -10,7 +10,7 @@ load_dotenv()
 #configuring streamlit page settings
 st.set_page_config(
     page_icon='⭐',
-    page_title='💎GemChat💎',
+    page_title='GemChat',
     layout='wide',
     menu_items={'Get Help': 'https://www.linkedin.com/in/gokulraj075/',
                 'Report a bug': "https://www.linkedin.com/in/gokulraj075/",
@@ -37,8 +37,8 @@ if "chat_session" not in st.session_state:
     st.session_state.chat_session = model.start_chat(history=[])
     
 #Display the chatbot's title on the page
-st.title("GemChat")
-st.write("  𝖠 𝖼𝗁𝖺𝗍𝖻𝗈𝗍 𝖻𝗎𝗂𝗅𝗍 𝗐𝗂𝗍𝗁 𝖲𝗍𝗋𝖾𝖺𝗆𝗅𝗂𝗍, 𝗎𝗌𝗂𝗇𝗀 𝗍𝗁𝖾 𝖦𝖾𝗆𝗂𝗇𝗂 𝖠𝖯𝖨 𝗄𝖾𝗒 𝖿𝗈𝗋 𝗂𝗇𝗍𝖾𝗅𝗅𝗂𝗀𝖾𝗇𝗍 𝖺𝗇𝖽 𝗋𝖾𝗌𝗉𝗈𝗇𝗌𝗂𝗏𝖾 𝗂𝗇𝗍𝖾𝗋𝖺𝖼𝗍𝗂𝗈𝗇𝗌.")
+st.title("💎GemChat💎")
+st.write(" 𝖠 𝖼𝗁𝖺𝗍𝖻𝗈𝗍 𝖻𝗎𝗂𝗅𝗍 𝗐𝗂𝗍𝗁 𝖲𝗍𝗋𝖾𝖺𝗆𝗅𝗂𝗍, 𝗎𝗌𝗂𝗇𝗀 𝗍𝗁𝖾 𝖦𝖾𝗆𝗂𝗇𝗂 𝖠𝖯𝖨 𝗄𝖾𝗒 𝖿𝗈𝗋 𝗂𝗇𝗍𝖾𝗅𝗅𝗂𝗀𝖾𝗇𝗍 𝖺𝗇𝖽 𝗋𝖾𝗌𝗉𝗈𝗇𝗌𝗂𝗏𝖾 𝗂𝗇𝗍𝖾𝗋𝖺𝖼𝗍𝗂𝗈𝗇𝗌.")
 
 col1, col2 = st.columns([4, 1])
 
